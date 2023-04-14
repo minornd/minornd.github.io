@@ -1,0 +1,102 @@
+
+body {
+  background-color: #FFDEAD;
+  place-items: center;
+  background-image: url("https://4.bp.blogspot.com/-MC0fh5Rti2M/Wczdpv2RmoI/AAAAAAAA-gw/yezccv5Skb4qdYkhKZAIUbqbNHh7tg_7wCLcBGAs/s1600/1709110428.jpg"), url("https://4.bp.blogspot.com/-MC0fh5Rti2M/Wczdpv2RmoI/AAAAAAAA-gw/yezccv5Skb4qdYkhKZAIUbqbNHh7tg_7wCLcBGAs/s1600/1709110428.jpg");
+  background-repeat: repeat-y;
+  background-size:15% auto;
+  background-position: right bottom, left top;
+}
+
+h1 {
+  color: #2F4F4F;
+  background-color: #FAEBD7;
+  font-size: 4vw;
+  margin: 0;
+  margin-bottom: 7px;
+  padding: 4px;
+  font-family: Candara;
+  font-variant: small-caps;
+  text-align: center;
+  letter-spacing: 0.5em;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5em;
+  border-bottom-color: #A9A9A9;
+}
+
+h2 {
+  color: #2F4F4F;
+  font-family: Candara;
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 4vw;
+}
+
+h3 {
+  color: #2F4F4F;
+  font-family: Candara;
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 3vw;
+}
+
+p {
+  font-family: Candara;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+
+/* Page structure - this will basically center everything to the center of the page*/
+.wrapper {
+  display: grid;
+  place-items: center;
+  margin: 0 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Very light scaling for our logo */
+.logo {
+  max-width: 420px;
+  max-height: 300px;
+}
+
+/* Main text area */
+.main {
+  margin: 0;
+  max-width: 600px;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    padding: 2px;
+    border: 2px solid green;
+}
